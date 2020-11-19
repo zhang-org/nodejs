@@ -1,0 +1,6 @@
+require('./home/index')
+console.log('index.js')
+let Ma = require('./Ma')
+console.log(Ma.a)
+let person = new Ma.Person()
+person.hobby()
